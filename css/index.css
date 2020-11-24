@@ -1,0 +1,372 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 oct. 2020, 15:59:13
+    Author     : arielrubi
+*/
+body, html{
+    /*color: #fff;
+    background: #006493 !important;
+    background-color: #006493 !important;
+    overflow-x: hidden;
+    overflow-y: hidden;*/
+}
+.logo{
+    width: 200px;
+}
+.formulario-principal-cuadro{
+    z-index: 2;
+}
+.formulario-principal{
+    width: 465px;
+    -webkit-box-shadow: -1px 0px 0px 4px rgba(255,255,255,1);
+    -moz-box-shadow: -1px 0px 0px 4px rgba(255,255,255,1);
+    box-shadow: -1px 0px 0px 4px rgba(255,255,255,1);
+}
+.texto-principal{
+    font-weight: 400;
+    font-size: 2.5rem;
+    width: 500px;
+} 
+.bg-verde-oscuro{
+    background: #0a7f69!important;
+    background-color: #0a7f69!important;
+}
+.bg-verde-claro{
+    background: #089580!important;
+    background-color: #089580!important;
+}
+.bg-amarillo{
+    background: #e8d514!important;
+    background-color: #e8d514!important;
+}
+.cuadro-blanco {
+    margin-top: 92px !important;
+    height: 479px;
+    -webkit-box-shadow: -192px 0px 0px 0px rgba(255,255,255,1);
+    -moz-box-shadow: -192px 0px 0px 0px rgba(255,255,255,1);
+    box-shadow: -192px 0px 0px 0px rgba(255,255,255,1);
+    z-index: 1;
+}
+.btnSolicitar{
+    font-weight: 300;
+}
+.sombreado-verde-oscuro{
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+    box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+}
+.sombreado-blanco{
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+    box-shadow: 10px 10px 0px 0px rgba(10,127,105,1);
+}
+.lineaHorizontal {
+    background: #000;
+    width: 200px;
+    height: 1px;
+} 
+.principal{
+    height: 720px;
+    background-image: url("../img/fondo-principal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-box-shadow: 2px 10px 0px 2px rgba(10,127,105,1);
+    -moz-box-shadow: 2px 10px 0px 2px rgba(10,127,105,1);
+    box-shadow: 2px 10px 0px 2px rgba(10,127,105,1);
+}
+.cuadro-central{ 
+    margin-top: 15px;
+    height: auto;
+    z-index: 9;
+}
+.cuadro-ofrecemos{
+    width: 250px;
+} 
+.titulos-cuadrocentral{
+    font-size: 1.3rem;
+}
+.text-cuadrocentral{
+    font-size: 15px;
+    height: 100px;
+} 
+.btn-conocer{
+    /* font-size: 12px;*/
+    margin-bottom: 30px;
+} 
+.cuadro-formulario{ 
+    margin-top: -110px;
+}
+.img-iconos{
+    width: 45px;
+}
+.img-hoja{
+    width: 35px;
+}
+.cuadro-videos{
+    margin-top: -35px;
+    height: auto;
+    z-index: 9;
+}
+.jumbotron{
+    background-color: #343a40!important
+}
+.img-iconos-play{
+    width: 70px;
+    cursor: pointer;
+}
+.btn-contactar:focus, .btn-contactar:active, .btn-contactar:hover,
+.btn-conocer:focus, .btn-conocer:active, .btn-conocer:hover,
+.btn-conocer-apps:focus, .btn-conocer-apps:active, .btn-conocer-apps:hover,
+.btn-contactar-play:focus, .btn-contactar-play:active, .btn-contactar-play:hover,
+.btn-contactar-play2:focus, .btn-contactar-play2:active, .btn-contactar-play2:hover,
+#btnSolicitar:focus, #btnSolicitar:active, #btnSolicitar:hover
+{
+    outline: 0; 
+    box-shadow: none !important;
+}
+.text-informacion-req{
+    font-size: 20px;
+}
+.formulario-cuadro{
+    height: 600px;
+}
+.titulo-formulario{
+    font-weight: 200;
+}
+.video{
+    height: 200px;
+}
+.top-desktop{
+    margin-top: 100px !important;
+}
+.texto-gracias{
+    position: absolute;
+    left: 30%; 
+    top: 40%;  
+}
+@media only screen and (max-width: 1920px){
+    .formulario-principal{
+        width: 365px;
+    } 
+}
+@media only screen and (max-width: 1380px){
+    .cuadro-videos {  
+    }
+    .text-play, text-play2, text-play3 {  
+        font-size: 18px;
+    } 
+}
+@media only screen and (max-width: 1250px){
+    .cuadro-videos {  
+    }
+    .text-play, .text-play2, .text-play3 {  
+        font-size: 17px;
+    } 
+    .texto-gracias {
+        left: 25%;
+    }
+}
+@media only screen and (max-width: 1175px){
+    .text-cuadrocentral{
+        height: 125px;
+    }
+    .cuadro-ofrecemos {
+        width: 215px;
+    }
+    .text-play, .text-play2, .text-play3 {   
+        font-size: 16px;
+    }
+    .texto-gracias {
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .cuadro-ofrecemos {
+        width: 180px;
+    }
+    .text-cuadrocentral{
+        height: 145px;
+    }
+    .cuadro-videos {  
+    } 
+    .titulos-cuadrocentral {
+        font-size: 17px;
+    }
+    .texto-principal{ 
+        font-size: 2.1rem;
+        width: 400px;
+    }
+    .texto-gracias { 
+        left: 15%; 
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .cuadro-titulo-medio-players { 
+        margin-top: -65px;
+    }
+}
+@media only screen and (max-width: 860px){
+    .cuadro-ofrecemos {
+        width: 160px;
+    }
+    .texto-principal{ 
+        font-size: 1.7rem;
+        width: 350px;
+    } 
+    .formulario-principal {
+        width: 310px;
+    }
+    .text-cuadrocentral{
+        height: 180px;
+    }
+    .cuadro-videos { 
+    }
+    .text-play {  
+    }
+    .cuadro-titulo-medio-players h1 {
+        font-size: 1.7rem; 
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .texto-principal{
+        font-size: 1.3rem;
+    }
+    .cuadro-ofrecemos {
+        width: 140px;
+    }
+    .texto-principal{ 
+        font-size: 1.4rem;
+        width: 265px;
+    }    
+    .formulario-principal {
+        width: 265px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    } 
+    .cuadro-blanco { 
+        height: 526px;
+    }
+    .texto-gracias{ 
+        left: 10%; 
+        top: 40%; 
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    .texto-gracias{ 
+        left: 10%; 
+        top: 40%; 
+        font-size: 1.2rem;
+    }
+    .cuadro-ofrecemos {
+        width: 190px;
+    }
+    .logo{
+        margin-left: 0 !important;
+    }
+    .btn-contactar{
+        margin-right: 0 !important;
+    }
+    .principal { 
+        height: 300px;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    } 
+    .text-cuadrocentral {
+        height: 60px;
+        font-size: 11px;
+    }
+    .btn-conocer {  
+        margin-left: 120px;
+        margin-top: 5px !important;
+        margin-bottom: 5px;
+    } 
+
+    .text-central-general{
+        font-size: 14px;
+        text-align: justify !important;
+    }
+
+    .cuadro-formulario {
+        margin-top: 20px;
+    }
+    .top-desktop{
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 380px){
+    .cuadro-ofrecemos {
+        width: 170px;
+    }
+    .texto-gracias { 
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 320px){
+    .texto-gracias { 
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    .texto-gracias {
+        left: 8%;
+    }
+}
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    .texto-gracias {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 570px) and (orientation: landscape) {
+    .texto-gracias {
+        font-size: 1.7rem;
+    }
+}
+
+/*mobile */
+/*@media only screen and (max-width: 768px) and (orientation: landscape) {
+    .cuadro-soluciones {
+
+    }
+    .text-cuadrocentral{
+        height: 0px;
+        font-size: 13px;
+    }
+    .cuadro-videos {  
+    } 
+    .titulos-cuadrocentral {
+        font-size: 17px;
+    }
+    .cuadro-videos1{
+        -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+        box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+    }
+    .cuadro-videos2{
+        -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+        box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.41);
+        margin-top: 20px;
+    }
+    .cuadro-formulario {  
+        margin-bottom: 0px !important;
+    }
+    .logo{
+        margin-left: 0 !important;
+    }
+    .btn-contactar{
+        margin-right: 0 !important;
+    }
+}*/
